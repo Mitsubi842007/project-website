@@ -32,7 +32,7 @@ body {
 
 .sidebar.active {
     width: 78px;
-    
+
 }
 
 .sidebar.active .logo-content,
@@ -42,6 +42,17 @@ body {
 
 .sidebar.active ul li input {
     display: none;
+}
+
+/* Add space between buttons when the sidebar is closed so they do not overlap. */
+.sidebar.active ul li {
+    margin-bottom: 2px;
+    position: relative;
+}
+
+/* Move the collapsed navigation icons below the hamburger button. */
+.sidebar.active ul {
+    margin-top: 70px;
 }
 
 .home_content {
@@ -62,14 +73,11 @@ body {
     width: 100%;
     align-items: center;
 
-
-
 }
 
 .logo-content .logo i {
-    font-size: 28px;
+    font-size: 30px;
     margin-right: 5px;
-
 
 }
 
@@ -77,15 +85,15 @@ body {
     font-size: 20px;
     font-weight: 400;
 
-
 }
 
+/* MENU BUTTON SIZE: change font-size for the icon, and height/width for its button area. */
 .sidebar #btn {
     color: #fff;
     position: absolute;
     left: 90%;
     top: 6px;
-    font-size: 20px;
+    font-size: 30px;
     height: 50px;
     width: 50px;
     text-align: center;
@@ -93,10 +101,15 @@ body {
     transform: translateX(-50%);
 }
 
+/* When the sidebar is closed, center the menu button in the 78px sidebar. */
+.sidebar.active #btn {
+    left: 50%;
+    bottom: 20px;
+
+}
+
 .sidebar ul {
     margin-top: 20px;
-
-
 
 }
 
@@ -109,6 +122,7 @@ body {
     margin: 0 5px;
     line-height: 50px;
     border-radius: 12px;
+
 }
 
 .sidebar ul {
@@ -130,7 +144,6 @@ body {
     font-size: 18px;
     color: #fff;
 
-
 }
 
 .sidebar ul li .bx-search {
@@ -145,7 +158,6 @@ body {
     color: #fff;
     font-size: 22px;
 
-
 }
 
 .sidebar ul li a {
@@ -154,6 +166,7 @@ body {
     align-items: center;
     text-decoration: none;
     transition: all 0.4s ease;
+
 }
 
 .sidebar ul li a:hover {
@@ -168,7 +181,6 @@ body {
     border-radius: 12px;
     line-height: 50px;
     text-align: center;
-
 
 }
 
@@ -187,18 +199,17 @@ body {
     transition: 0s;
     opacity: 0;
     pointer-events: none;
+
 }
 
 .sidebar ul li:hover .tooltip {
     top: 50%;
     opacity: 1;
-
     transition: all 0.5s ease;
-
-
 
 }
 
 .sidebar.active ul li:hover .tooltip {
     display: block;
+
 }
