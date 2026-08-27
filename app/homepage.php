@@ -75,9 +75,21 @@
                 <span class="tooltip">Other stuff</span>
             </li>
         </ul>
+        <!-- SOCIAL BOXES: replace the image paths and # links with your social media details. -->
+        <div class="social-boxes">
+            <a class="social-box" href="#"><img src="afbeeldingen/social-1.png" alt="Social media 1"></a>
+            <a class="social-box" href="#"><img src="afbeeldingen/social-2.png" alt="Social media 2"></a>
+            <a class="social-box" href="#"><img src="afbeeldingen/social-3.png" alt="Social media 3"></a>
+            <a class="social-box" href="#"><img src="afbeeldingen/social-4.png" alt="Social media 4"></a>
+        </div>
     </div>
     <div class="top_bar">
-      
+    </div>
+    <div class="background-picture">
+
+    </div>
+
+
     <script src="javascript.js"></script>
 </body>
 

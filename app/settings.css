@@ -29,35 +29,45 @@ body {
     background: #060709;
     padding: 6px 14px;
     transition: all 0.67s ease;
-
+    border-right: 5px solid #B800B5;
 }
 
 .sidebar.active {
     width: 78px;
+    border-right: 5px solid #FF00C8;
 
 }
 
 .sidebar.active .logo-content,
 .sidebar.active .links_name {
     display: none;
-    
-    
+margin-left: -20px;
+
 }
 
 .sidebar.active ul li input {
     display: none;
 }
 
+/* Hide the social link image boxes smoothly when the sidebar is closed. */
+.sidebar.active .social-boxes {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.67s ease, visibility 0s linear 0.67s;
+    transform: translateX(-50%);
+}
+
 /* Add space between buttons when the sidebar is closed so they do not overlap. */
 .sidebar.active ul li {
     margin-bottom: 2px;
     position: relative;
-    
+
 }
 
 /* Move the collapsed navigation icons below the hamburger button. */
 .sidebar.active ul {
     margin-top: 70px;
+    transform: translateX(-40%);
 }
 
 .home_content {
@@ -65,7 +75,7 @@ body {
     left: 240px;
     width: calc(100% - 240px);
 }
-
+    
 .sidebar.active~.home_content {
     left: 78px;
     width: calc(100% - 78px);
@@ -78,7 +88,7 @@ body {
     height: 50px;
     width: 100%;
     align-items: center;
-    
+
 }
 
 
@@ -92,28 +102,28 @@ body {
     font-size: 30px;
     font-weight: 100;
     margin-left: 40px;
-font-family: "Cherry Bomb One", system-ui;
+    font-family: "Cherry Bomb One", system-ui;
 }
 
 /* MENU BUTTON SIZE: change font-size for the icon, and height/width for its button area. */
 .sidebar #btn {
     color: #A300A0;
     position: absolute;
-    left: 90%;
+    left: 85%;
     top: 6px;
     font-size: 30px;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     text-align: center;
     line-height: 50px;
     transform: translateX(-50%);
-    
-    
+
+
 }
 
 /* When the sidebar is closed, center the menu button in the 78px sidebar. */
 .sidebar.active #btn {
-    left: 50%;
+    left: 40%;
     bottom: 20px;
 
 }
@@ -136,7 +146,7 @@ font-family: "Cherry Bomb One", system-ui;
 }
 
 .sidebar ul {
-    margin-top: 20px;
+    margin-top: 30px;
 
 }
 
@@ -151,9 +161,9 @@ font-family: "Cherry Bomb One", system-ui;
     border: none;
     background: #1d1b31;
     padding-left: 50px;
-    font-size: 18px;
+    font-size: 14px;
     color: #CBC6B9;
-    
+
 
 }
 
@@ -180,19 +190,20 @@ font-family: "Cherry Bomb One", system-ui;
 }
 
 .sidebar ul li a {
-   color: #CBC6B9;
+    color: #CBC6B9;
     display: flex;
     align-items: center;
     text-decoration: none;
     transition: all 0.4s ease;
-    
+
 
 }
+
 /*hover colour effect*/
 .sidebar ul li a:hover {
-    background: #6E7270;
-    color: #A300A0;
-
+    background: #A300A0;
+    color: #3D003C;
+    border-radius: 20px;
 }
 
 .sidebar ul li a i {
@@ -201,7 +212,7 @@ font-family: "Cherry Bomb One", system-ui;
     border-radius: 12px;
     line-height: 50px;
     text-align: center;
-
+    border-radius: 12px;
 }
 
 .sidebar ul li .tooltip {
@@ -233,11 +244,59 @@ font-family: "Cherry Bomb One", system-ui;
     display: block;
 
 }
+
+/* SOCIAL BOXES: style the four image boxes shown below the sidebar menu. */
+.social-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-top: 190px;
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+}
+
+.social-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    background: #1d1b31;
+    border: 2px solid #B800B5;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.social-box img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+
+}
+
+.social-box:hover {
+    background: #A300A0;
+}
+
 /*top bar with only logo*/
 .top_bar {
-width: 100%;
-background-color: #070809;
-height: 100px;
+    width: 100%;
+    background-color: #070809;
+    height: 100px;
 
+}
+
+.background-picture {
+
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(135deg,
+            #FF00C8 10%,
+            #7100A8 35%,
+            #19052B 60%,
+            #050507 90%);
 
 }
