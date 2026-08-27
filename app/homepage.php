@@ -87,8 +87,19 @@
     </div>
     <div class="background-picture">
 
-    </div>
+        <div class="background-picture-text">
 
+        </div>
+
+    </div>
+    <div class="down_bar">
+        <div class="block-text1">
+            <p>HOME</p>
+
+
+        </div>
+
+    </div>
 
     <script src="javascript.js"></script>
 </body>

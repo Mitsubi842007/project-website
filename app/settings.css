@@ -1,3 +1,5 @@
+/*font from my imported letter type*/
+
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
 /*body of page*/
@@ -17,7 +19,6 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 
-
 }
 
 .sidebar {
@@ -30,6 +31,7 @@ body {
     padding: 6px 14px;
     transition: all 0.67s ease;
     border-right: 5px solid #B800B5;
+
 }
 
 .sidebar.active {
@@ -41,12 +43,13 @@ body {
 .sidebar.active .logo-content,
 .sidebar.active .links_name {
     display: none;
-margin-left: -20px;
+    margin-left: -20px;
 
 }
 
 .sidebar.active ul li input {
     display: none;
+
 }
 
 /* Hide the social link image boxes smoothly when the sidebar is closed. */
@@ -55,6 +58,7 @@ margin-left: -20px;
     visibility: hidden;
     transition: opacity 0.67s ease, visibility 0s linear 0.67s;
     transform: translateX(-50%);
+
 }
 
 /* Add space between buttons when the sidebar is closed so they do not overlap. */
@@ -68,14 +72,16 @@ margin-left: -20px;
 .sidebar.active ul {
     margin-top: 70px;
     transform: translateX(-40%);
+
 }
 
 .home_content {
     position: relative;
     left: 240px;
     width: calc(100% - 240px);
+
 }
-    
+
 .sidebar.active~.home_content {
     left: 78px;
     width: calc(100% - 78px);
@@ -117,7 +123,6 @@ margin-left: -20px;
     text-align: center;
     line-height: 50px;
     transform: translateX(-50%);
-
 
 }
 
@@ -164,7 +169,6 @@ margin-left: -20px;
     font-size: 14px;
     color: #CBC6B9;
 
-
 }
 
 .sidebar ul li .bx-search {
@@ -187,6 +191,7 @@ margin-left: -20px;
 .sidebar ul li input,
 .sidebar ul li {
     font-family: "Cherry Bomb One", system-ui;
+
 }
 
 .sidebar ul li a {
@@ -196,7 +201,6 @@ margin-left: -20px;
     text-decoration: none;
     transition: all 0.4s ease;
 
-
 }
 
 /*hover colour effect*/
@@ -204,6 +208,7 @@ margin-left: -20px;
     background: #A300A0;
     color: #3D003C;
     border-radius: 20px;
+
 }
 
 .sidebar ul li a i {
@@ -213,6 +218,7 @@ margin-left: -20px;
     line-height: 50px;
     text-align: center;
     border-radius: 12px;
+
 }
 
 .sidebar ul li .tooltip {
@@ -254,6 +260,7 @@ margin-left: -20px;
     opacity: 1;
     visibility: visible;
     transform: translateX(0%);
+
 }
 
 .social-box {
@@ -279,6 +286,7 @@ margin-left: -20px;
 
 .social-box:hover {
     background: #A300A0;
+
 }
 
 /*top bar with only logo*/
@@ -292,11 +300,52 @@ margin-left: -20px;
 .background-picture {
 
     width: 100%;
-    height: 230px;
+    height: 430px;
     background: linear-gradient(135deg,
             #FF00C8 10%,
             #7100A8 35%,
             #19052B 60%,
             #050507 90%);
+}
+
+.background-picture-text {
+    background-color: #CBC6B9;
+    opacity: 70%;
+    bottom: 25%;
+    left: -9%;
+    width: 170px;
+    height: 390px;
+    margin-left: 25%;
+    position: absolute;
+
+}
+
+.down_bar {
+    width: 100%;
+    background-color: #070809;
+    height: 70px;
+
+}
+
+.block-text1 {
+    color: #CBC6B9;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    height: 8%;
+    width: 15%;
+    right: 44%;
+    position: absolute;
+    bottom: 200px;
+    background-color: #A300A0;
+    border-radius: 15px;
+
+}
+
+.block-text1 p {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Cherry Bomb One", system-ui;
 
 }
