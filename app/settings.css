@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
 /*body of page*/
 body {
-    background-color: #ffffff;
+    background-color: #DCD9D0;
     position: relative;
     min-height: 100vh;
     width: 100%;
@@ -24,9 +26,9 @@ body {
     left: 0;
     height: 100%;
     width: 240px;
-    background: black;
+    background: #060709;
     padding: 6px 14px;
-
+    transition: all 0.67s ease;
 
 }
 
@@ -38,6 +40,8 @@ body {
 .sidebar.active .logo-content,
 .sidebar.active .links_name {
     display: none;
+    
+    
 }
 
 .sidebar.active ul li input {
@@ -48,6 +52,7 @@ body {
 .sidebar.active ul li {
     margin-bottom: 2px;
     position: relative;
+    
 }
 
 /* Move the collapsed navigation icons below the hamburger button. */
@@ -66,14 +71,16 @@ body {
     width: calc(100% - 78px);
 }
 
+/*the logo letters settings*/
 .sidebar .logo-content .logo {
-    color: #fff;
+    color: #B800B5;
     display: flex;
     height: 50px;
     width: 100%;
     align-items: center;
-
+    
 }
+
 
 .logo-content .logo i {
     font-size: 30px;
@@ -82,14 +89,15 @@ body {
 }
 
 .logo-content .logo .logo-name {
-    font-size: 20px;
-    font-weight: 400;
-
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 40px;
+font-family: "Cherry Bomb One", system-ui;
 }
 
 /* MENU BUTTON SIZE: change font-size for the icon, and height/width for its button area. */
 .sidebar #btn {
-    color: #fff;
+    color: #A300A0;
     position: absolute;
     left: 90%;
     top: 6px;
@@ -99,6 +107,8 @@ body {
     text-align: center;
     line-height: 50px;
     transform: translateX(-50%);
+    
+    
 }
 
 /* When the sidebar is closed, center the menu button in the 78px sidebar. */
@@ -142,7 +152,8 @@ body {
     background: #1d1b31;
     padding-left: 50px;
     font-size: 18px;
-    color: #fff;
+    color: #CBC6B9;
+    
 
 }
 
@@ -155,23 +166,32 @@ body {
     line-height: 50px;
     text-align: center;
     z-index: 99;
-    color: #fff;
+    color: #CBC6B9;
     font-size: 22px;
 
 }
 
+/* SIDEBAR MENU FONT: change this font-family to change the menu text, search text, and tooltips. */
+.sidebar ul li a,
+.sidebar ul li a .links_name,
+.sidebar ul li input,
+.sidebar ul li {
+    font-family: "Cherry Bomb One", system-ui;
+}
+
 .sidebar ul li a {
-    color: #fff;
+   color: #CBC6B9;
     display: flex;
     align-items: center;
     text-decoration: none;
     transition: all 0.4s ease;
+    
 
 }
-
+/*hover colour effect*/
 .sidebar ul li a:hover {
-    background: #fff;
-    color: rgb(7, 7, 7);
+    background: #6E7270;
+    color: #A300A0;
 
 }
 
@@ -186,7 +206,7 @@ body {
 
 .sidebar ul li .tooltip {
     position: absolute;
-    left: 122px;
+    left: 150px;
     top: 0;
     transform: translateY(-50%);
     height: 35px;
@@ -204,12 +224,20 @@ body {
 
 .sidebar ul li:hover .tooltip {
     top: 50%;
-    opacity: 1;
-    transition: all 0.5s ease;
+    opacity: 3;
+    transition: all 1.1s ease;
 
 }
 
 .sidebar.active ul li:hover .tooltip {
     display: block;
+
+}
+/*top bar with only logo*/
+.top_bar {
+width: 100%;
+background-color: #070809;
+height: 100px;
+
 
 }

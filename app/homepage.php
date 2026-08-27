@@ -8,6 +8,12 @@
     <!--boxicons cdn links--->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="settings.css">
+
+    <!--google fonts--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -15,7 +21,7 @@
         <i class='bx bx-menu' id='btn'></i>
         <div class="logo-content">
             <div class="logo">
-                <div class="logo-name">Mitsu</div>
+                <div class="logo-name">MITSU</div>
 
             </div>
 
@@ -70,9 +76,8 @@
             </li>
         </ul>
     </div>
-    <div class="home_content">
-        <div class="text">Home Page</div>
-    </div>
+    <div class="top_bar">
+      
     <script src="javascript.js"></script>
 </body>
 
