@@ -71,7 +71,7 @@
         </ul>
         <!-- SOCIAL LINKS: replace the # values with your social media URLs. -->
          <div class="social-boxes">
-            <a class="social-box" href="#" aria-label="Social link A"><i class='bx bxl-discord-alt' ></i></a>
+            <a class="sxocial-box" href="#" aria-label="Social link A"><i class='bx bxl-discord-alt' ></i></a>
             <a class="social-box" href="#" aria-label="Social link B"><i class='bx bxl-youtube' ></i></a>
             <a class="social-box" href="#" aria-label="Social link C"><i class='bx bxl-tiktok' ></i></a>
             <a class="social-box" href="#" aria-label="Social link D"><i class='bx bxl-github' ></i></a>

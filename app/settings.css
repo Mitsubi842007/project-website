@@ -1,11 +1,7 @@
-/*font from my imported letter type*/
-
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
 /* ------------------------------------------------- */
-/* --------------------------------- ---------------*/
+/* --------------------BODY--------------------------*/
 /* ------------------------------------------------ */
-/*body of page*/
 body {
     background-color: #DCD9D0;
     position: relative;
@@ -14,9 +10,13 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     height: auto;
+
 }
 
-/*important settings*/
+/*font from my imported letter type*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +24,9 @@ body {
     font-family: Arial, sans-serif;
 
 }
-
+/* ------------------------------------------------- */
+/* ------------------SIDE-BAR------------------------*/
+/* ------------------------------------------------ */
 .sidebar {
     position: fixed;
     top: 0;
@@ -261,7 +263,9 @@ body {
 
 }
 
-/* SOCIAL BOXES: style the four image boxes shown below the sidebar menu. */
+/* ------------------------------------------------- */
+/* --------------social boxes------------------------*/
+/* ------------------------------------------------ */
 .social-boxes {
     display: flex;
     flex-direction: row;
@@ -295,7 +299,9 @@ body {
 
 }
 
-/*top bar with only logo*/
+/* ------------------------------------------------- */
+/* ------------------TOP-BAR------------------------*/
+/* ------------------------------------------------ */
 .top_bar {
     width: 100%;
     background-color: #070809;
@@ -303,6 +309,9 @@ body {
 
 }
 
+/* ------------------------------------------------- */
+/* ------------------BACKGROUND------------------------*/
+/* ------------------------------------------------ */
 .background-picture {
     position: relative;
     width: 100%;
@@ -315,6 +324,9 @@ body {
             #050507 90%);
 }
 
+/* ------------------------------------------------- */
+/* ------------------DOWN-BAR------------------------*/
+/* ------------------------------------------------ */
 .down_bar {
     width: 100%;
     height: 110px;
@@ -348,12 +360,18 @@ body {
 
 }
 
+/* ------------------------------------------------- */
+/* ---------PLACEHOLDER-SPACE------------------------*/
+/* ------------------------------------------------ */
 .placeholder-space {
     background-color: #FFFFFF;
     width: 100%;
     min-height: 300px;
 }
 
+/* ------------------------------------------------- */
+/* ------------------FOOTER------------------------*/
+/* ------------------------------------------------ */
 .footer {
     display: flex;
     flex-direction: column;
@@ -376,6 +394,10 @@ margin-left:20%;
 position:sticky;
 
 }
+
+/* ------------------------------------------------- */
+/*--------CHERRY-BLOSSOM ANIMATION CSS----------------*/
+/* ------------------------------------------------ */
 .cherry-blossom {
         position: absolute;
         inset: 0;
