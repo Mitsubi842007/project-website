@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="sidebar">
+    <div class="sidebar active">
         <i class='bx bx-menu' id='btn'></i>
         <div class="logo-content">
             <div class="logo">

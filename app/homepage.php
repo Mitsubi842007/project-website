@@ -8,16 +8,19 @@
     <!--boxicons cdn links--->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="settings.css">
-
     <!--google fonts--->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Changa+One:ital@0;1&family=Oswald:wght@200..700&family=Share+Tech&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="sidebar">
+    <div class="sidebar active">
         <i class='bx bx-menu' id='btn'></i>
         <div class="logo-content">
             <div class="logo">
@@ -75,39 +78,47 @@
                 <span class="tooltip">Other stuff</span>
             </li>
         </ul>
-        <!-- SOCIAL LINKS: replace the # values with your social media URLs. -->
+        <!-- SOCIAL LINKS: of my social media's that i use -->
         <div class="social-boxes">
-            <a class="social-box" href="#" aria-label="Social link A"><i class='bx bxl-discord-alt' ></i></a>
-            <a class="social-box" href="#" aria-label="Social link B"><i class='bx bxl-youtube' ></i></a>
-            <a class="social-box" href="#" aria-label="Social link C"><i class='bx bxl-tiktok' ></i></a>
-            <a class="social-box" href="#" aria-label="Social link D"><i class='bx bxl-github' ></i></a>
-            
+            <a class="social-box" href="https://discord.com/users/844851964620832781?" aria-label="Social link A"><i
+                    class='bx bxl-discord-alt'></i></a>
+            <a class="social-box" href="https://www.youtube.com/@hyper_alexyt19" aria-label="Social link B"><i
+                    class='bx bxl-youtube'></i></a>
+            <a class="social-box" href="https://www.tiktok.com/@hyper_alexyt19?is_from_webapp=1&sender_device=pc"
+                aria-label="Social link C"><i class='bx bxl-tiktok'></i></a>
+            <a class="social-box" href="https://github.com/Mitsubi842007" aria-label="Social link D"><i
+                    class='bx bxl-github'></i></a>
+
         </div>
     </div>
     <div class="home_content">
-        <div class="top_bar">
+    </div>
+
+    <div class="top_bar">
+        <div class="top_bar_boxes">
+            <div> <i class='bx bx-arrow-back'></i> menu | welcome to my page!</div>
+            <div>「 Developer ✦ Gamer ✦ Writer 」</div>
         </div>
         <div class="background-picture">
-            <div class="cherry-blossom" aria-hidden="true"></div>
-            <div class="block-text1">
-                <p>HOME</p>
+            <div class="cherry-blossom" aria-hidden="true">
+                <div class="background-picture-box-transparent">
+                    <h3>hey, i'm</h3>
+                    <h1>MITSUBI</h1>
+                    <h4>developer ✦ gamer and a writer</h4>
+                    <p>i built websites</p>
+                    <p>i also write</p>
+                    <div class="background-picture-box-transparent-link">
+                        <a href="aboutpage.php">gallery</a>
+                         <a href="aboutpage.php">about me</a>
+                        
+
+                    </div>
+                </div>
             </div>
         </div>
         <div class="down_bar"></div>
     </div>
 
-    </div>
-
-    <div class="placeholder-space">
-    </div>
-
-
-
     <script src="javascript.js"></script>
 
-    <div class="footer">
-<h1>Made with html, css, php and JS</h1>
-    </div>
 </body>
-
-</html>

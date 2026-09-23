@@ -2,9 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
 
-/* ------------------------------------------------- */
-/* --------------------------------- ---------------*/
-/* ------------------------------------------------ */
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /*body of page*/
 body {
     background-color: #DCD9D0;
@@ -25,6 +28,7 @@ body {
 
 }
 
+/*the sidebar settings*/
 .sidebar {
     position: fixed;
     top: 0;
@@ -45,6 +49,7 @@ body {
 
 }
 
+/*when side bar is closed (active) it then wont show the content inside the side bar settings*/
 .sidebar.active .logo-content,
 .sidebar.active .links_name {
     display: none;
@@ -75,7 +80,7 @@ body {
 
 /* Move the collapsed navigation icons below the hamburger button. */
 .sidebar.active ul {
-    margin-top: 70px;
+    margin-top: 110px;
     transform: translateX(-40%);
 
 }
@@ -84,7 +89,7 @@ body {
     position: relative;
     left: 240px;
     width: calc(100% - 240px);
-    min-height: 100px;
+    min-height: 40px;
     overflow-x: hidden;
     transition: left 0.67s ease, width 0.67s ease;
     background-color: #070809;
@@ -100,9 +105,10 @@ body {
 .sidebar .logo-content .logo {
     color: #B800B5;
     display: flex;
+    align-items: center;
     height: 50px;
     width: 100%;
-    align-items: center;
+    line-height: 1;
 
 }
 
@@ -110,6 +116,9 @@ body {
 .logo-content .logo i {
     font-size: 30px;
     margin-right: 5px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
 
 }
 
@@ -117,7 +126,11 @@ body {
     font-size: 30px;
     font-weight: 100;
     margin-left: 40px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
     font-family: "Cherry Bomb One", system-ui;
+    margin-top: 15px;
 }
 
 /* MENU BUTTON SIZE: change font-size for the icon, and height/width for its button area. */
@@ -125,12 +138,15 @@ body {
     color: #A300A0;
     position: absolute;
     left: 85%;
-    top: 6px;
+    top: 14px;
     font-size: 30px;
     height: 60px;
     width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    line-height: 50px;
+    line-height: 1;
     transform: translateX(-50%);
 
 }
@@ -143,7 +159,7 @@ body {
 }
 
 .sidebar ul {
-    margin-top: 20px;
+    margin-top: 38px;
 
 }
 
@@ -160,7 +176,7 @@ body {
 }
 
 .sidebar ul {
-    margin-top: 30px;
+    margin-top: 48px;
 
 }
 
@@ -299,14 +315,43 @@ body {
 .top_bar {
     width: 100%;
     background-color: #070809;
-    height: 80px;
+    height: 30px;
+}
+
+.top_bar_boxes {
+    position: relative;
+    left: 90px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 110px);
+    height: 30px;
+    word-spacing: 12px;
+    
 
 }
+
+.top_bar_boxes>div {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    min-width: 240px;
+    white-space: nowrap;
+    height: 36px;
+    padding: 0 12px;
+    color: #fefefe;
+    border-radius: 6px;
+    font-family: "changa one", system-ui;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
 
 .background-picture {
     position: relative;
     width: 100%;
-    height: 430px;
+    height: 370px;
     overflow: hidden;
     background: linear-gradient(135deg,
             #FF00C8 10%,
@@ -315,6 +360,65 @@ body {
             #050507 90%);
 }
 
+.background-picture-box-transparent {
+    position: absolute;
+    top: 10%;
+    left: 80px;
+    z-index: 2;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    padding: 10px;
+    color: #fefefe;
+    background: #07080980;
+    border: 3px solid #A300A0;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.background-picture-box-transparent p {
+    margin: 0;
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: 10px;
+    text-align: left;
+
+}
+
+.background-picture-box-transparent h1 {
+    margin: 0;
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: 30px;
+    letter-spacing: 3px;
+
+
+}
+
+.background-picture-box-transparent h3 {
+    margin: 0;
+    font-family: "changa one", system-ui;
+    font-size: 25px;
+    word-spacing: 7px;
+
+}
+
+.background-picture-box-transparent h4 {
+    margin: 0;
+    font-family: "changa one", system-ui;
+    font-size: 25px;
+
+
+}
+.background-picture-box-transparent-link {
+  	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    
+}
 .down_bar {
     width: 100%;
     height: 110px;
@@ -332,88 +436,55 @@ body {
     top: 80%;
     margin-left: 0;
     transform: translate(-50%, -50%);
-
     position: absolute;
     background-color: #A300A0;
     border-radius: 15px;
     z-index: 2;
-
 }
 
-.block-text1 p {
-    justify-content: center;
-    text-align: center;
-    margin-top: 10px;
-    font-family: "Cherry Bomb One", system-ui;
-
-}
-
-.placeholder-space {
-    background-color: #FFFFFF;
-    width: 100%;
-    min-height: 300px;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-
-    
-    background: #060709;
-    width: 100%;
-    height: 45px;
-
-}
-.footer h1{
- font-family: "Cherry Bomb One", system-ui;
- font-size:medium;
- color: #FF00C8;
-margin-left:20%;
-position:sticky;
-
-}
+/*cherry blossom falling animation settings*/
 .cherry-blossom {
-        position: absolute;
-        inset: 0;
-        overflow: hidden;
-        pointer-events: none;
-        z-index: 1;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 1;
 }
 
 .petal {
-        position: absolute;
-        top: -24px;
-        left: var(--petal-x);
-        width: var(--petal-size);
-        height: calc(var(--petal-size) * 0.72);
-        border-radius: 70% 30% 70% 30%;
-        background: linear-gradient(135deg, rgba(255, 235, 244, 0.78), rgba(244, 156, 190, 0.48));
-        box-shadow: 0 1px 5px rgba(255, 180, 213, 0.25);
-        opacity: 0;
-        transform: rotate(25deg);
-        animation: petal-fall var(--petal-duration) linear var(--petal-delay) infinite;
+    position: absolute;
+    top: -24px;
+    left: var(--petal-x);
+    width: var(--petal-size);
+    height: calc(var(--petal-size) * 0.72);
+    border-radius: 70% 30% 70% 30%;
+    background: linear-gradient(135deg, rgba(255, 235, 244, 0.78), rgba(244, 156, 190, 0.48));
+    box-shadow: 0 1px 5px rgba(255, 180, 213, 0.25);
+    opacity: 0;
+    transform: rotate(25deg);
+    animation: petal-fall var(--petal-duration) linear var(--petal-delay) infinite;
 }
 
 @keyframes petal-fall {
-        0% {
-                opacity: 0;
-                transform: translate3d(0, -24px, 0) rotate(25deg);
-        }
-        10% {
-                opacity: 0.78;
-        }
-        50% {
-                transform: translate3d(var(--petal-drift), 230px, 0) rotate(170deg);
-        }
-        90% {
-                opacity: 0.55;
-        }
-        100% {
-                opacity: 0;
-                transform: translate3d(calc(var(--petal-drift) * 2), 470px, 0) rotate(330deg);
-        }
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -24px, 0) rotate(25deg);
+    }
+
+    10% {
+        opacity: 0.78;
+    }
+
+    50% {
+        transform: translate3d(var(--petal-drift), 230px, 0) rotate(170deg);
+    }
+
+    90% {
+        opacity: 0.55;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translate3d(calc(var(--petal-drift) * 2), 470px, 0) rotate(330deg);
+    }
 }
