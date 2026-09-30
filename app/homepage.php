@@ -96,20 +96,20 @@
 
     <div class="top_bar">
         <div class="top_bar_boxes">
-            <div> <i class='bx bx-arrow-back'></i> menu | welcome to my page!</div>
+            <div> <i class='bx bx-arrow-back'></i> menu ㅤ welcome to my page!</div>
             <div>「 Developer ✦ Gamer ✦ Writer 」</div>
         </div>
-        <div class="background-picture">
+        <div class="gradient-background">
             <div class="cherry-blossom" aria-hidden="true">
-                <div class="background-picture-box-transparent">
+                <div class="gradient-textbox">
                     <h3>hey, i'm</h3>
                     <h1>MITSUBI</h1>
-                    <h4>developer ✦ gamer and a writer</h4>
-                    <p>i built websites</p>
-                    <p>i also write</p>
-                    <div class="background-picture-box-transparent-link">
+                    <h4>developer,ㅤgamer and a writer</h4>
+                    <p>test</p>
+                    <p>test</p>
+                    <div class="background-link-box">
                         <a href="aboutpage.php">gallery</a>
-                         <a href="aboutpage.php">about me</a>
+                         <a href="aboutpage.php"><i class='bx bxs-user'>ㅤ</i>about me</a>
                         
 
                     </div>
