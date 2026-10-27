@@ -79,21 +79,25 @@
         </div>
     </div>
     <div class="home_content">
-        <div class="top_bar">
-        </div>
-        <div class="background-picture">
-            <div class="cherry-blossom" aria-hidden="true"></div>
-            <div class="block-text1">
-                <p>GOALS</p>
-            </div>
-        </div>
-        <div class="down_bar"></div>
     </div>
 
-    </div>
-
-    <div class="placeholder-space">
-    </div>
+    <div class="top_bar">
+        <div class="top_bar_boxes">
+            <div> <i class='bx bx-arrow-back'></i> menu ㅤ welcome to my page!</div>
+            <div>「 Building ✦ Exploring ✦ Creating 」</div>
+        </div>
+        <div class="gradient-background">
+            <div class="cherry-blossom" aria-hidden="true">
+                <div class="gradient-textbox">
+                    <h3>hey, i'm</h3>
+                    <h1>MITSUBI</h1>
+                    <h4>developer  •  gamer  •  writer</h4>
+                    <p>test</p>
+                    <div class="background-link-box">
+                        <a href="aboutpage.php">gallery</a>
+                        <a href="aboutpage.php"><i class='bx bxs-user'>ㅤ</i>about me</a>
+                    </div>
+                </div>
 
 
 

@@ -97,28 +97,58 @@
     <div class="top_bar">
         <div class="top_bar_boxes">
             <div> <i class='bx bx-arrow-back'></i> menu ㅤ welcome to my page!</div>
-            <div>「 Developer ✦ Gamer ✦ Writer 」</div>
+            <div>「 Building ✦ Exploring ✦ Creating 」</div>
         </div>
         <div class="gradient-background">
             <div class="cherry-blossom" aria-hidden="true">
                 <div class="gradient-textbox">
                     <h3>hey, i'm</h3>
                     <h1>MITSUBI</h1>
-                    <h4>developer,ㅤgamer and a writer</h4>
-                    <p>test</p>
+                    <h4>developer  •  gamer  •  writer</h4>
                     <p>test</p>
                     <div class="background-link-box">
                         <a href="aboutpage.php">gallery</a>
-                         <a href="aboutpage.php"><i class='bx bxs-user'>ㅤ</i>about me</a>
-                        
-
+                        <a href="aboutpage.php"><i class='bx bxs-user'>ㅤ</i>about me</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="down_bar"></div>
-    </div>
+        <div class="down_bar">
+            <div class="box-row">
+                <div class="box">
+                    <img src="https://placehold.co/100x100" alt="Box image">
+                    <div class="box-text">
+                        <h2>test 1 </h2>
+                        <h4>test 1 </h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/100x100" alt="Box image">
+                    <div class="box-text">
+                        <h2>test 1 </h2>
+                        <h4>test 1 </h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/100x100" alt="Box image">
+                    <div class="box-text">
+                        <h2>test 1 </h2>
+                        <h4>test 1 </h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://placehold.co/100x100" alt="Box image">
+                    <div class="box-text">
+                        <h2>test 1 </h2>
+                        <h4>test 1 </h4>
+                    </div>
+                </div>
+            </div>
 
-    <script src="javascript.js"></script>
+        </div>
+
+
+
+        <script src="javascript.js"></script>
 
 </body>

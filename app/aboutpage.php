@@ -21,7 +21,7 @@
 
 
         </div>
-          <ul class="navList">
+        <ul class="navList">
             <li>
                 <i class='bx bx-search'></i>
                 <input type="text" placeholder="search...">
@@ -70,38 +70,44 @@
             </li>
         </ul>
         <!-- SOCIAL LINKS: replace the # values with your social media URLs. -->
-          <div class="social-boxes">
-            <a class="social-box" href="#" aria-label="Social link A"><i class='bx bxl-discord-alt' ></i></a>
-            <a class="social-box" href="#" aria-label="Social link B"><i class='bx bxl-youtube' ></i></a>
-            <a class="social-box" href="#" aria-label="Social link C"><i class='bx bxl-tiktok' ></i></a>
-            <a class="social-box" href="#" aria-label="Social link D"><i class='bx bxl-github' ></i></a>
-            
+        <div class="social-boxes">
+            <a class="social-box" href="#" aria-label="Social link A"><i class='bx bxl-discord-alt'></i></a>
+            <a class="social-box" href="#" aria-label="Social link B"><i class='bx bxl-youtube'></i></a>
+            <a class="social-box" href="#" aria-label="Social link C"><i class='bx bxl-tiktok'></i></a>
+            <a class="social-box" href="#" aria-label="Social link D"><i class='bx bxl-github'></i></a>
+
         </div>
     </div>
     <div class="home_content">
-        <div class="top_bar">
+    </div>
+
+    <div class="top_bar">
+        <div class="top_bar_boxes">
+            <div> <i class='bx bx-arrow-back'></i> menu ㅤ welcome to my page!</div>
+            <div>「 Building ✦ Exploring ✦ Creating 」</div>
         </div>
-        <div class="background-picture">
-            <div class="cherry-blossom" aria-hidden="true"></div>
-            <div class="block-text1">
-                <p>ABOUT ME</p>
+        <div class="gradient-background">
+            <div class="cherry-blossom" aria-hidden="true">
+                <div class="gradient-textbox">
+                    <h3>hey, i'm</h3>
+                    <h1>MITSUBI</h1>
+                    <h4>developer • gamer • writer</h4>
+                    <p>test</p>
+                    <div class="background-link-box">
+                        <a href="aboutpage.php">gallery</a>
+                        <a href="aboutpage.php"><i class='bx bxs-user'>ㅤ</i>about me</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="down_bar"></div>
-    </div>
+        <div class="down_bar">
 
-    </div>
+        </div>
 
-    <div class="placeholder-space">
     </div>
 
 
 
     <script src="javascript.js"></script>
 
-    <div class="footer">
-<h1>Made with html, css, php and JS</h1>
-    </div>
 </body>
-
-</html>

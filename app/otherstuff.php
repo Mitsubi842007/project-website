@@ -87,7 +87,28 @@
                 <p>OTHER STUFF</p>
             </div>
         </div>
-        <div class="down_bar"></div>
+        <div class="down_bar">
+            <a class="down-bar-card" href="https://discord.com/users/844851964620832781" target="_blank"
+                rel="noopener noreferrer">
+                <span class="down-bar-image" aria-hidden="true"><i class='bx bxl-discord-alt'></i></span>
+                <span class="down-bar-card-text"><strong>Discord</strong><span>Chat with me</span></span>
+            </a>
+            <a class="down-bar-card" href="https://www.youtube.com/@hyper_alexyt19" target="_blank"
+                rel="noopener noreferrer">
+                <span class="down-bar-image" aria-hidden="true"><i class='bx bxl-youtube'></i></span>
+                <span class="down-bar-card-text"><strong>YouTube</strong><span>@hyper_alexyt19</span></span>
+            </a>
+            <a class="down-bar-card" href="https://www.tiktok.com/@hyper_alexyt19?is_from_webapp=1&amp;sender_device=pc"
+                target="_blank" rel="noopener noreferrer">
+                <span class="down-bar-image" aria-hidden="true"><i class='bx bxl-tiktok'></i></span>
+                <span class="down-bar-card-text"><strong>TikTok</strong><span>@hyper_alexyt19</span></span>
+            </a>
+            <a class="down-bar-card" href="https://github.com/Mitsubi842007" target="_blank"
+                rel="noopener noreferrer">
+                <span class="down-bar-image" aria-hidden="true"><i class='bx bxl-github'></i></span>
+                <span class="down-bar-card-text"><strong>GitHub</strong><span>Mitsubi842007</span></span>
+            </a>
+        </div>
     </div>
 
     </div>
